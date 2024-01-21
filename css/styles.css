@@ -700,10 +700,6 @@ button {
 .modal-input-comm::placeholder {
   color: rgba((46, 47, 66, 0.4));
 }
-.accept-checkbox:checked + .accept span {
-  background-color: #404bbf;
-}
-
 .check-accept {
   display: flex;
   align-items: center;
@@ -729,13 +725,25 @@ button {
   display: flex;
 }
 
-.accept-stick {
+.accept span {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
   margin-right: 8px;
-  stroke-width: 1px;
-  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  top: 55px;
+  left: 20px;
+  border-radius: 2px;
+  border: 1px;
+  background: #404bbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.accept-checkbox:checked + .accept span {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
 
 .modal-btn {
