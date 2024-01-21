@@ -706,7 +706,7 @@ button {
   justify-content: center;
 }
 
-.accept {
+.accept-text {
   color: #8e8f99;
   font-size: 12px;
   font-style: normal;
@@ -715,7 +715,7 @@ button {
   display: flex;
 }
 
-.accept a {
+.accept-text a {
   font-size: 12px;
   font-style: normal;
   line-height: 1, 17;
@@ -725,7 +725,7 @@ button {
   display: flex;
 }
 
-.accept span {
+.accept-text span {
   width: 16px;
   height: 16px;
   flex-shrink: 0;
@@ -740,14 +740,13 @@ button {
   justify-content: center;
   fill: transparent;
 }
-.accept-checkbox:checked + .accept span {
+.accept-checkbox:checked + .accept-text span {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
 
 .modal-btn {
-  height: 100%;
   top: 584px;
   left: 635px;
   border-radius: 4px;
@@ -758,13 +757,10 @@ button {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 16px, 32px, 16px, 32px;
   width: 169px;
   height: 56px;
 }
 .madal-btn-text {
-  width: 105px;
-  height: 24px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -772,4 +768,14 @@ button {
   text-align: center;
   background-color: #4d5ae5;
   color: #ffffff;
+  width: 105px;
+}
+.modal-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modal-input-wrap {
+  position: relative;
 }
