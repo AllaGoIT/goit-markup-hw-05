@@ -700,44 +700,48 @@ button {
 .modal-input-comm::placeholder {
   color: rgba((46, 47, 66, 0.4));
 }
-.accept {
-  width: 338px;
-  flex-shrink: 0;
-  display: flex;
-  margin-bottom: 24px;
-}
-.accept-checkbox {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  stroke-width: 1px;
-  stroke: rgba(46, 47, 66, 0.4);
+.accept-checkbox:checked + .accept span {
+  background-color: #404bbf;
 }
 
-.accept-text {
+.check-accept {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accept {
   color: #8e8f99;
   font-size: 12px;
   font-style: normal;
   line-height: 1, 17;
   letter-spacing: 0.04em;
   display: flex;
-  margin-left: 8px;
 }
 
-.accept-text-sp {
+.accept a {
   font-size: 12px;
   font-style: normal;
   line-height: 1, 17;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   text-decoration-line: underline;
+  display: flex;
 }
+
+.accept-stick {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-right: 8px;
+  stroke-width: 1px;
+  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
+
 .modal-btn {
-  width: 169px;
-  height: 56px;
+  height: 100%;
   top: 584px;
   left: 635px;
-  padding: 16px, 32px, 16px, 32px;
   border-radius: 4px;
   gap: 10px;
   background: #4d5ae5;
@@ -746,6 +750,9 @@ button {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 16px, 32px, 16px, 32px;
+  width: 169px;
+  height: 56px;
 }
 .madal-btn-text {
   width: 105px;
