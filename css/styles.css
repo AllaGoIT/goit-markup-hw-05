@@ -847,6 +847,12 @@ button {
   top: 50%;
   transform: translateY(-50%);
 }
+.modal-icon-p {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .modal-input-wrap {
   position: relative;
   margin-top: 4px;
