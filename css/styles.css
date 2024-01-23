@@ -722,11 +722,14 @@ button {
   flex-shrink: 0;
   border: 1px solid #2e2f4266;
   height: 40px;
+  fill: #2e2f42;
 }
 .modal-input-name:hover {
   border: 1px solid #4d5ae5;
 }
-
+.modal-icon-p {
+  fill: #2e2f42;
+}
 .modal-icon-p:hover {
   fill: #4d5ae5;
 }
