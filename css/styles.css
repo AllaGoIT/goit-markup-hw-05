@@ -606,6 +606,11 @@ button {
   padding-left: 16px;
 }
 
+.footer-contacts {
+  display: flex;
+  gap: 24px;
+}
+
 .placeholder {
   top: 16px;
   font-family: Roboto;
@@ -621,9 +626,11 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  line-height: 1.5;
 }
+
 .footer-btn {
   display: inline-block;
   justify-content: center;
