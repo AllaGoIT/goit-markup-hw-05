@@ -644,17 +644,18 @@ button {
   background-color: #4d5ae5;
   margin-left: auto;
   border-radius: 4px;
+  border: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-.text-footer-btn {
   width: 77px;
   height: 24px;
   font-family: Roboto;
   text-align: center;
+}
+.text-footer-btn {
 }
 .subscribe-btn {
   margin-left: 16px;
