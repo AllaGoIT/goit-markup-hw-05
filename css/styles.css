@@ -740,8 +740,13 @@ button {
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.modal-close-btn:focus:hover {
+.modal-close-btn:hover {
   background-color: #404bbf;
+  border: none;
+}
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 .title {
