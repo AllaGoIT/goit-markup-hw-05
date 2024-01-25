@@ -618,31 +618,32 @@
             </div>
           </div>
           <div class="modal-field-c">
-            <label for="user-name" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <div class="modal-input-wrap">
-              <input
-                type="text"
-                name="user-name"
-                class="modal-input-name"
-                placeholder="Text input"
+              <textarea
+                class="modal-texta-comment"
                 id="user-comment"
-              />
+                name="user-comment"
+                placeholder="Text input"
+              >
+              </textarea>
             </div>
           </div>
           <div class="check-accept">
             <input
               type="checkbox"
-              id="policy"
+              id="user-privacy"
+              name="user-privacy"
               class="accept-checkbox visually-hidden"
               value="true"
             />
-            <label for="policy" class="accept-text">
-              <span>
+            <label for="user-privacy" class="accept-text">
+              <span class="accept-privacy">
                 <svg class="accept-stick-img" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector-st"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the<a href=""
+              I accept the terms and conditions of the<a href="accept-text-wrap"
                 >Privacy Policy</a
               >
             </label>

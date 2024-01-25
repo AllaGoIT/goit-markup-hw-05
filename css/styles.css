@@ -827,10 +827,30 @@ button {
 .modal-input-comm::placeholder {
   color: rgba((46, 47, 66, 0.4));
 }
+.modal-texta-comment {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-texta-comment:focus {
+  border-color: #4d5ae5;
+}
+
 .check-accept {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 24px;
 }
 .accept-stick-img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -840,7 +860,7 @@ button {
   color: #8e8f99;
   font-size: 12px;
   font-style: normal;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: flex;
 }
@@ -873,7 +893,14 @@ button {
 .accept-checkbox:checked + .accept-text span {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
+}
+
+.accept-privacy {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .modal-btn {
@@ -884,11 +911,10 @@ button {
   background-color: #4d5ae5;
   margin-left: auto;
   margin-right: auto;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px 16px 32px;
   color: #ffffff;
-  display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -899,6 +925,9 @@ button {
   text-align: center;
   width: 105px;
   fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn :hover {
   background-color: #404bbf;
