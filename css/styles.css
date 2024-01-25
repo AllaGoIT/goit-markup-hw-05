@@ -858,7 +858,6 @@ button {
   font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
 }
 
 .accept-text a {
@@ -935,7 +934,7 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon :focus {
+.modal-input-name :focus + .modal-icon {
   fill: #4d5ae5;
 }
 
