@@ -897,10 +897,10 @@ button {
 }
 
 .accept-privacy {
+  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
 }
 
 .modal-btn {
@@ -943,12 +943,23 @@ button {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon-p :hover {
+  fill: #ffffff;
 }
 .modal-icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.modal-icon :hover {
+  fill: #ffffff;
 }
 .modal-input-wrap {
   position: relative;
