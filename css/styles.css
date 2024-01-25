@@ -506,6 +506,7 @@ button {
   align-items: baseline;
 }
 .footer-wrap {
+  margin-right: 120px;
 }
 
 .footer-logo-italic {
@@ -552,7 +553,6 @@ button {
   justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 30px;
 }
 
 .social-icons-item .link {
@@ -577,15 +577,13 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  margin-left: 30px;
 }
 .footer-item-img {
   fill: #f4f4fd;
 }
 
 .footer-email {
-  padding-top: 100px;
-  margin-left: 30px;
+  margin-left: auto;
 }
 
 .footer-input-name {
@@ -601,8 +599,6 @@ button {
   margin-left: auto;
   background-color: transparent;
   color: #fff;
-  margin-right: 24px;
-  margin-top: 16px;
   padding-left: 16px;
   font-size: 12px;
   line-height: 2;
@@ -669,9 +665,6 @@ button {
   height: 100%;
   position: fixed;
   top: 0;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
   background-color: rgba(46, 47, 66, 0.4);
 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -760,7 +753,6 @@ button {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
-  padding-top: 72px;
 }
 
 .modal-input-name {
@@ -783,15 +775,6 @@ button {
 }
 
 .modal-body {
-  height: 336px;
-  width: 360px;
-  top: 192px;
-  left: 540px;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
 }
 .modal-input-phone {
   width: 360px;
@@ -843,10 +826,6 @@ button {
 }
 
 .check-accept {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 24px;
 }
 .accept-stick-img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -867,7 +846,6 @@ button {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   text-decoration-line: underline;
-  display: flex;
 }
 
 .accept-text span {
@@ -916,6 +894,7 @@ button {
   display: block;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 24px;
 }
 .modal-btn :hover {
   background-color: #404bbf;
@@ -939,7 +918,7 @@ button {
 }
 
 .modal-icon :hover {
-  fill: #ffffff;
+  fill: #4d5ae5;
 }
 .modal-input-wrap {
   position: relative;
